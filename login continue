@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home page</title>
+    <link rel="stylesheet" href="a1.css" />
+  </head>
+  <body>
+    <h3 align="center">Online shopping</h3>
+    <div class="right">
+      <div class="e4">
+        <input type="text" placeholder="search" size="1px" id="sss" />
+        <a href="" class="tools">Home </a>
+        <a href="" class="tools">Men </a>
+        <a href="" class="tools">Women </a>
+        <a href="" class="tools">Kids </a>
+        <a href="" class="tools">content</a>
+        <a href="" class="tools">about</a>
+        <a href="" class="tools">help</a>
+        <a href=""></a>
+        <!-- <details>
+          <summary></summary>
+          <summary>content</summary>
+          <summary>about</summary>
+          <summary>help</summary>
+        </details> -->
+      </div>
+    </div>
+  </body>
+</html>
