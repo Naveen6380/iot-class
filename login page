@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="a1.css" />
+  </head>
+  <body>
+    <h3 align="center">Online shopping</h3>
+    <center>
+      <fieldset>
+        <legend align="center">Login</legend>
+        <form action="index.html ">
+          <table>
+            <tr>
+              <td>
+                <label for="">user name :</label>
+              </td>
+              <td>
+                <input type="text" required />
+              </td>
+            </tr>
+
+            <tr>
+              <td>
+                <label for="">email :</label>
+              </td>
+              <td>
+                <input type="email" required value="@gmail.com" />
+              </td>
+            </tr>
+            <tr>
+              <td>
+                <label for="">password :</label>
+              </td>
+              <td>
+                <input type="password" min="0" maxlength="8" required />
+              </td>
+            </tr>
+          </table>
+          <button>Login</button>
+        </form>
+      </fieldset>
+    </center>
+  </body>
+</html>
+
+
+
+
+
+
+* {
+  margin: 1px;
+  padding: 1px;
+  box-sizing: border-box;
+}
+h3 {
+  font-size: 60px;
+  /* display: flex; */
+  /* display: inline-block; */
+  /* margin-left: 40%; */
+  /* background-color: cornflowerblue; */
+}
+h3::first-letter {
+  color: red;
+}
+
+#sss {
+  display: inline;
+  text-align: center;
+  width: 350px;
+  height: 35px;
+  border-radius: 20px;
+  /* padding: 0px;
+        margin-top: 1px;
+        text-align: center; */
+}
+body {
+  background-image: url(6.jpg);
+  background-size: cover;
+}
+fieldset {
+  width: 500px;
+  height: 200px;
+  padding: 50px;
+  margin: 500px;
+}
+
+.R1 {
+  text-align: end;
+}
+.menus {
+  padding: 0px 0px 0px 10%;
+  display: flex;
+  margin-right: 80px;
+  display: flex;
+}
+
+.right {
+  /* text-align: center; */
+  /* margin-left: 800px; */   
+  height: 40px;
+  background-color: rgba(0, 0, 0, 0.769);
+}
+
+a {
+  padding: 5px;
+  text-decoration: none;
+  /* background-color: red; */
+  color: white;
+  line-height: 25px;
+  
+}
+
+a:hover {
+  color: white;
+  text-shadow: 0px 0px;
+  /* width: max-content; */
+  border: 1px solid;
+  /* border-color: aquamarine; */
+  background-color: #fff;
+  border-radius: 20%;
+  border-color: antiquewhite;
+  background-color: transparent;
+}
+
+.e4 {
+  /* margin-left: 500px;
+  margin-top: 10px; */
+  font-size: 18px;
+  height: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+fieldset {
+  margin-top: 50px;
+  color: rgb(179, 245, 240);
+}
+
+/* .tools{
+
+  display: flex;
+  justify-content: space-between;
+} */
