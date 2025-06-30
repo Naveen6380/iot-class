@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 50px;
+        
+    }
+    button{
+        background-color: rgb(43, 226, 67);
+        color: white;
+        padding: 10px;
+        border: 5px;
+        width: 100px;
+        border-radius: 10px; 
+     
+    }
+    img{
+        display: block;
+    }
+    h2{
+      color: blueviolet;
+      text-align: center;
+    }
+</style>
+<body>
+        
+    <div>
+        <img src="images.jpg" alt="im" height="100px" width="100px">
+        <button>player 1</button>
+        <h2 id="ps1">0</h2>
+</div>
+    <div>
+     <img id="p2"src="images.jpg" alt="im" height="100px" width="100px">
+     <button id="pb2">player 2</button>
+     <h2 id="ps2">0</h2>
+</div>
+ <script>
+        let cont;
+        let img=document.querySelector("img");
+        let button=document.querySelector("button");
+        let ps1=document.querySelector("#ps1");
+        let score1=0;
+        button.onclick=function(){
+            let min=1
+            let max=6
+            cont=(Math.floor(Math.random()*(max-min)+1)+min)
+            score1+=cont;
+
+
+            console.log(score1)
+            ps1.textContent=score1
+            if (score1<=100){
+               if (cont==1)
+                 img.src="images1.png";
+               if (cont==2)
+                 img.src="images2.png";
+               if (cont==3)
+                 img.src="images3.png";
+               if (cont==4)
+                 img.src="images4.png";
+               if (cont==5)
+                 img.src="images5.png";
+               if (cont==6)
+                 img.src="images6.png";
+            
+               }
+            else
+               ps1.textContent="winner"}
+             
+
+
+        let cont1;
+        let score=0;
+        let p2=document.querySelector("#p2");
+        let pb2=document.querySelector("#pb2");
+        let ps2=document.querySelector("#ps2");
+        pb2.onclick=function(){
+            let min=1
+            let max=6
+            cont1=(Math.floor(Math.random()*(max-min +1))+min)
+            score+=cont1
+            ps2.textContent=score
+            if (score<=100){
+              if (cont1==1)
+                 p2.src="images1.png";
+              if (cont1==2)
+                 p2.src="images2.png";
+              if (cont1==3)
+                 p2.src="images3.png";
+              if (cont1==4)
+                 p2.src="images4.png";
+              if (cont1==5)
+                 p2.src="images5.png";
+              if (cont1==6)
+                 p2.src="images6.png";
+            
+          
+            }
+            else 
+              ps2.textContent="winner"
+              }
+              
+    </script>
+</body>
+</html>
